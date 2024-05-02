@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+
+.apresentacao {
+    width: 21cm;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 2cm ;
+    box-sizing: border-box;
+}
+
+.apresenatacao__conteudo {
+  width: 21cm;
+  height: 100%;
+  padding: 2cm;
+  box-sizing: border-box;
+}
+
+.apresenatacao__conteudo__nome {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 45px;
+    margin: 4%;
+}
+
+.apresenatacao__conteudo__texto {
+    font-size: 18px;
+}
+
+.texto__destaque {
+    color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 1px;
+    border: 2px;
+    padding: 3px;
+}
+
+.texto__descritivo {
+    margin: 8%;
+}
+
+.tamanho__texto {
+    font-size: 18px;
+}
+
+
+.tamanho__texto__texto {
+    font-size: 18px;
+}
+
+.tamanho__texto__ex {
+    font-size: 18px;
+}
+
+.tamanho__texto__idomas {
+    font-size: 18px;
+    margin: 0%;
+}
+
+.tamanho__texto__trabalhos {
+    font-size: 18px;
+    margin: 0;
+}
+
+main {
+    margin: 10cm ;
+    margin-top: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
+}
+
+section {
+    margin: 2px;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box; /*visualmente não muda nada */
+    width: 100%;
+    padding: 0px;
+    border: 0px; 
+    margin-bottom: 50px;
+}
+
+img {
+    float: right;
+    margin-right: 4cm;
+}
